@@ -3,10 +3,12 @@ FROM tensorflow/tensorflow:2.11.0-gpu
 # Needed for geopandas, shapely & GDAL to work
 RUN add-apt-repository ppa:ubuntugis/ppa
 
+RUN apt-get update && apt-get install build-essential -y
+
 RUN apt-get update && \
     apt-get install -y \
-    gdal-bin=3.3.2+dfsg-2~focal2 \
-    libgdal-dev=3.3.2+dfsg-2~focal2 \
+    gdal-bin\
+    libgdal-dev\
     git \
     libspatialindex-dev \
     libgl1-mesa-glx \
@@ -35,4 +37,4 @@ RUN cmake .. -DCMAKE_CXX_COMPILER=g++-9
 RUN make
 RUN make install
 
-CMD ["jupyter", "nbconvert", "--inplace", "--to=notebook", "--execute", "./new_data_down.ipynb"]
+CMD ["jupyter", "nbconvert", "--inplace", "--to=notebook", "--execute", "./Cloud.ipynb"]
