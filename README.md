@@ -1,6 +1,6 @@
 # geoap_cloud_segmentation
 
-[Cloud detection](https://docs.google.com/document/d/1H9HK7gEGofG2zWBwhA8bK8BS0jvsywYMCGHy68EChB8/edit#heading=h.i58akew2w841) https://docs.google.com/document/d/1H9HK7gEGofG2zWBwhA8bK8BS0jvsywYMCGHy68EChB8/edit#heading=h.i58akew2w841
+[Cloud detection](https://docs.google.com/document/d/1H9HK7gEGofG2zWBwhA8bK8BS0jvsywYMCGHy68EChB8/edit#heading=h.i58akew2w841)
 
 ### Build image
 
