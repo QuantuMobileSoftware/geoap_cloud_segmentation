@@ -1,0 +1,13 @@
+{
+  "cm_vsm": {
+    "path": "cm_vsm",
+    "env": {
+      "LD_LIBRARY_PATH": "."
+    }
+  },
+  "overlapping": 0.0625,
+  "tile_size": 512,
+  "resampling_method" : "sinc",
+  "architecture": "DeepLabv3Plus",
+  "batch_size": 1
+}
